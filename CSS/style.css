@@ -1,0 +1,12 @@
+.section{
+    text-align: center;
+    font-family: cursive;
+    color: blueviolet;
+}
+
+.name{
+    font-style: italic;
+    color: darkorchid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
