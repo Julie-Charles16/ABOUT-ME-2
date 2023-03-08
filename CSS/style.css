@@ -1,12 +1,81 @@
+.menu{
+    font-family: Georgia;
+    text-align: center;
+}
+
+.title{
+    font-family: Georgia;
+    font-size:xx-large;
+    text-align: center;
+}
+
+.hangs{
+    font-style: italic;
+    font-family: Georgia;
+    font-size: medium;
+    text-align: center;
+}
 .section{
     text-align: center;
-    font-family: cursive;
-    color: blueviolet;
+    font-family: Georgia;
 }
 
 .name{
-    font-style: italic;
-    color: darkorchid;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-family: Georgia;
+    text-align: center; 
+}
+
+.picture{
+    display: flex;
+    margin: auto;
+    height: 300px;
+    width: 300px;   
+}
+
+.about{
+    font-family: Georgia;
     text-align: center;
 }
+.skills{
+    font-family: Georgia;
+    text-align: center;
+}
+
+.t1 td, .t1 th{
+    text-align: center;
+    border: 1px solid black;
+}
+
+ul{
+    list-style-type: center;
+    margin: 0;
+    padding: 0;
+}
+
+li menu{
+    float: center;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    background-color: rgb(201, 151, 248);
+    color: antiquewhite;
+}
+
+.answer{
+    text-align: center;
+    font-family: Arial;
+}
+
+.copy{
+    text-align: right;
+    font-family: Calibri;
+}
+
+ol{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+  }
