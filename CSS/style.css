@@ -1,8 +1,26 @@
 .menu{
-    font-family: Georgia;
+    font-family: cursive;
     text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    
 }
-
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-between;
+    padding: 15px;
+}
+.menu a{
+    color: #fff;
+}
+body{
+    margin: auto;
+    max-width: 720px;
+    position: relative;
+    height:100vh
+}
 .title{
     font-family: Georgia;
     font-size:xx-large;
@@ -42,40 +60,98 @@
     text-align: center;
 }
 
-.t1 td, .t1 th{
+table{
+    border: medium solid black;
+    border-collapse: collapse;
+    width: 450px;
+    margin: auto;
+}
+
+td, td , th{
     text-align: center;
     border: 1px solid black;
 }
 
 ul{
-    list-style-type: center;
-    margin: 0;
-    padding: 0;
-}
-
-li menu{
-    float: center;
-}
-
-a{
     display: block;
+    list-style-type: center;
+    margin: 8px;
     padding: 8px;
-    background-color: rgb(201, 151, 248);
-    color: antiquewhite;
+    
 }
+
+.nav{
+    display: block;
+    background-color: rgb(194, 142, 242);
+    list-style-type: none;
+}
+
+
 
 .answer{
-    text-align: center;
+    text-align: left;
+    font-family: Arial;
+    list-style-type: disc;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+ol{
+    display: inline-block;
+    text-align: left; 
+}
+
+.li1{
+    margin-left: 250px;
+}
+
+
+.li3{
+    margin-left: 21px;
     font-family: Arial;
 }
 
-.copy{
-    text-align: right;
-    font-family: Calibri;
+.li4{
+    margin-left: -90px;
+    font-family: Arial;
+}
+.point{
+    margin-left: 59px;
 }
 
-ol{
-    display: inline-block;
+figure{
+    border:thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
     margin: auto;
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+figcaption{
+    background-color: #222;
+    color: #fff;
+    font: italic smaller - sans-serif;
+    padding: 3px;
     text-align: center;
   }
+
+.container{
+    text-align: center;
+}
+
+.copy{
+    font-family: calibri;
+    right: 0px;
+    text-align: end;   
+}
+.space{
+    line-height: 40px;
+}
