@@ -3,8 +3,8 @@
     text-align: center;
     margin: auto;
     margin-top: 20px;
-    
 }
+
 .menu ul{
     display: flex;
     justify-content: center;
@@ -12,27 +12,33 @@
     justify-content: space-between;
     padding: 15px;
 }
+
 .menu a{
     color: #fff;
 }
+
 body{
     margin: auto;
     max-width: 720px;
     position: relative;
     height:100vh
 }
+
 .title{
     font-family: Georgia;
     font-size:xx-large;
     text-align: center;
 }
 
-.hangs{
+p{
     font-style: italic;
     font-family: Georgia;
-    font-size: medium;
     text-align: center;
+    display: block;
+    
 }
+
+
 .section{
     text-align: center;
     font-family: Georgia;
@@ -76,8 +82,7 @@ ul{
     display: block;
     list-style-type: center;
     margin: 8px;
-    padding: 8px;
-    
+    padding: 8px; 
 }
 
 .nav{
@@ -85,8 +90,6 @@ ul{
     background-color: rgb(194, 142, 242);
     list-style-type: none;
 }
-
-
 
 .answer{
     text-align: left;
@@ -98,6 +101,7 @@ ul{
     display: inline-block;
     text-align: left;
 }
+
 ol{
     display: inline-block;
     text-align: left; 
@@ -107,16 +111,16 @@ ol{
     margin-left: 250px;
 }
 
-
-.li3{
+.li2{
     margin-left: 21px;
     font-family: Arial;
 }
 
-.li4{
+.li3{
     margin-left: -90px;
     font-family: Arial;
 }
+
 .point{
     margin-left: 59px;
 }
@@ -133,7 +137,7 @@ figure{
 img{
     max-width: 300px;
     max-height: 300px;
-  }
+}
 
 figcaption{
     background-color: #222;
@@ -141,7 +145,7 @@ figcaption{
     font: italic smaller - sans-serif;
     padding: 3px;
     text-align: center;
-  }
+}
 
 .container{
     text-align: center;
@@ -152,6 +156,42 @@ figcaption{
     right: 0px;
     text-align: end;   
 }
+
 .space{
     line-height: 40px;
 }
+
+@media screen and (max-width:576px){
+    .full-width-img{
+        margin: auto;
+        width: 60%;
+    }
+.nav{
+    display: flex;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 30px;
+   
+    text-decoration: none;
+}
+.menu{
+    flex-direction: column;
+}
+.text{
+    margin-top: auto;
+    font-size: larger;
+    margin-right:25px;
+    margin-left: 25px;
+}
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+
+
+@media screen (min-width:1200px){
+
+}
+    
