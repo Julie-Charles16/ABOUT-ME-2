@@ -7,7 +7,6 @@
 
 .menu ul{
     display: flex;
-    justify-content: center;
     list-style: none;
     justify-content: space-between;
     padding: 15px;
@@ -37,7 +36,6 @@ p{
     display: block;
     
 }
-
 
 .section{
     text-align: center;
@@ -153,8 +151,7 @@ figcaption{
 
 .copy{
     font-family: calibri;
-    right: 0px;
-    text-align: end;   
+    
 }
 
 .space{
@@ -162,26 +159,66 @@ figcaption{
 }
 
 @media screen and (max-width:576px){
-    .full-width-img{
-        margin: auto;
-        width: 60%;
-    }
-.nav{
+    
+.nav a:hover{
     display: flex;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
-    margin-top: 30px;
-   
-    text-decoration: none;
+    margin-top: 15px;
 }
-.menu{
+
+.menu ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    align-items: space-between;
+    padding: 15px;
     flex-direction: column;
+    text-align: center;
 }
-.text{
+
+.text:hover{
     margin-top: auto;
-    font-size: larger;
-    margin-right:25px;
+    text-align: left;
+    margin-right:5px;
     margin-left: 25px;
+}
+
+.title{
+    font-size: larger;
+    text-align: center;
+    margin-right:20px;
+    margin-left: 5px;
+}
+
+p{
+    text-align: center;
+    font-size: 100%;
+    margin-left: 5px;
+}
+
+.li1{
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.li2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.li3{
+    margin-left: -60px;
+    margin-right: 50px;
+}
+.point{
+    margin-right: 35px;
+}
+.copy:hover{
+    font-family: calibri;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px; 
 }
 }
 
@@ -189,9 +226,4 @@ figcaption{
 
 }
 
-
-
-@media screen (min-width:1200px){
-
-}
     
